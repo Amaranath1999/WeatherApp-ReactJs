@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50,50, 54);
+    min-height: 100vh;
+}
+.app{
+    width: 450px;
+    height: 600px;
+    background: grey;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 2px 4px15px rgba(0,0,0,0,665);
+    border-radius: 10px;
+}
+.app .search{
+    text-align: center;
+    padding: 0.6rem 0;
+}
+.search input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0.7rem 1/5rem;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align:center ;
+}
+.search::placeholder{
+    color: rgb(177,177,177);
+}
+.app.container{
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+h1{
+    font-size: 6rem;
+    text-align: center;
+}
+.app .top{
+    width: 100%;
+    margin: 1rem auto;
+
+}
+.app .location p{
+    padding: 0 0 20px 0;
+    font-size: 31px;
+}
+.app .top h1{
+    padding-bottom: 20px;
+}
+.top .desc p{
+  font-size: 31px;
+}
+.container .bottom{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    margin: 1rem -1.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+.bottom .feels,.bottom .humidity,.bottom .wind{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    outline: none;
+    border-style: none hidden;
+}
+
+
+
